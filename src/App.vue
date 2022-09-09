@@ -10,11 +10,16 @@
           lien vers
           <code class="font-mono">simple.vue</code>
         </router-link>
-        <router-link class="text-red-600 underline" to="/liste">
+        
+      </li>
+      <li>        <router-link class="text-blue-600 underline" to="/liste">
           lien vers
           <code class="font-mono">liste.vue</code>
-        </router-link>
-      </li>
+        </router-link></li>
+        <li>        <router-link class="text-green-600 underline" to="/liste-fetch">
+          lien vers
+          <code class="font-mono">liste-fetch.vue</code>
+        </router-link></li>
     </ul>
   </nav>
 

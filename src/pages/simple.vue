@@ -15,16 +15,16 @@
 
 
 
-const unObjet0 = {nom:"une card de maison",
+const unObjet0 = {nom:"Villa France",
     prix: 45,
     favori: false,
     image: "./une.jpg", // les images sont simplement l'URL absolue (depuis la racine, débute par '/' )
-    nbrSDB: "Number",}
-const unObjet1 = {nom:"card",
-    prix: "Number",
-    favori: "Boolean",
-    image: "./une.jpg", // les images sont simplement l'URL absolue (depuis la racine, débute par '/' )
-    nbrSDB: "Number",}
+    nbrSDB: 2,}
+const unObjet1 = {nom:"Villa Italie",
+    prix: 55,
+    favori: false,
+    image: "./une2.jpg", // les images sont simplement l'URL absolue (depuis la racine, débute par '/' )
+    nbrSDB: 3,}
 
 </script>
 

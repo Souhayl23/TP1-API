@@ -6,9 +6,13 @@
     </h4>
     <ul>
       <li>
-        <router-link class="text-red-600 underline" to="/">
+        <router-link class="text-red-600 underline" to="/simple">
           lien vers
-          <code class="font-mono">/src/pages/index.vue</code>
+          <code class="font-mono">simple.vue</code>
+        </router-link>
+        <router-link class="text-red-600 underline" to="/liste">
+          lien vers
+          <code class="font-mono">liste.vue</code>
         </router-link>
       </li>
     </ul>

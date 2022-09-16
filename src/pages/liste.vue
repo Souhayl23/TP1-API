@@ -3,13 +3,13 @@
       <h2>Page Liste</h2>
       <Card v-for="unObjet of desObjets" v-bind="unObjet" :key="unObjet.nom"/>
       <!-- <Card v-bind="desObjets[1]"/> -->
+
     </div>
    
 </template>
 
 <script setup lang="ts">
  import Card from '../components/card.vue';
- import Maisons from '../assets/maisons.json';
  const props = defineProps({
   foo: String
 });

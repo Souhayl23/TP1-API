@@ -4,6 +4,8 @@ import { createRouter, createWebHistory } from "vue-router";
 import routesFromPages from "~pages";
 
 import "./index.css";
+import { plugin, defaultConfig } from "@formkit/vue"
+
 
 
 const router = createRouter({
@@ -17,4 +19,5 @@ const router = createRouter({
 
 const app = createApp(App);
 app.use(router);
+app.use(plugin, defaultConfig);
 app.mount("#app");

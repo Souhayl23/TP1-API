@@ -20,6 +20,12 @@
           lien vers
           <code class="font-mono">liste-fetch.vue</code>
         </router-link></li>
+        <li>
+        <router-link class="text-yellow-600 underline" to="/edit/new">
+          lien vers
+          <code class="font-mono">new.vue</code>
+        </router-link></li>
+        
     </ul>
   </nav>
 

@@ -1,17 +1,13 @@
 <script setup lang="ts">
-  import Card from "../components/card.vue";
-  
-  const res = await fetch("/maisons-public.json")
-  const maisons =  await res.json()
-   
- console.log(maisons);
- 
- 
+
+import { supabase } from "../supabase";
+console.log("supabase :", supabase); // pour vérifier et "garder" supabase dans le code
+const maisons = []; // à remplacer par l'appel à Supabase
 </script>
 
 <template>
     <div class="p-2">
-      <h2>Page List-fetch</h2>
+      <h2>Page List-supabase</h2>
       <div>     
          <Card
        v-for="maison in maisons"
@@ -22,3 +18,5 @@
     </div>
    
 </template>
+
+

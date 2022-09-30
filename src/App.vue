@@ -25,6 +25,12 @@
           lien vers
           <code class="font-mono">new.vue</code>
         </router-link></li>
+
+        <li>
+        <router-link class="text-orange-700 underline" to="connexion">
+         lien pour se connecter 
+        </router-link>
+      </li>
         
     </ul>
   </nav>

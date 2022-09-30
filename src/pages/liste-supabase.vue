@@ -1,8 +1,9 @@
 <script setup lang="ts">
-
+import Card from "../components/card.vue";
 import { supabase } from "../supabase";
 console.log("supabase :", supabase); // pour vérifier et "garder" supabase dans le code
-const maisons = []; // à remplacer par l'appel à Supabase
+let { data: maisons, error } = await supabase.from('Maison').select('*')
+console.log(maisons);
 </script>
 
 <template>
